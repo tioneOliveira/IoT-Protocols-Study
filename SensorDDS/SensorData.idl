@@ -1,0 +1,6 @@
+struct SensorData {
+    string sensor_id;       //@key
+    string sensor_type;     // "temperature", "pressure", "vibration"
+    double value;           // Valor do sensor
+    long timestamp;         // Timestamp em milissegundos
+};
